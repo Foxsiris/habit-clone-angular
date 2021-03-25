@@ -1,0 +1,23 @@
+svg{
+  width: 20px;
+  height: 20px;
+}
+#seachWrapper{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#btnTag{
+  display: flex;
+  border: 2px solid black;
+  width: 80px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  justify-self: left;
+}
+input{
+  justify-self: right;
+  margin: 0 10px;
+  width: 380px;
+}
