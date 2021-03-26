@@ -1,0 +1,29 @@
+<div id="habbit">
+  <div id="habbitHeaderWrapper">
+    <div>
+      <h4> {{title}}</h4>
+    </div>
+    <div id="habbitTypes">
+      <div *ngFor="let type of types">
+        {{type}}
+      </div>
+    </div>
+  </div>
+  <div id="habbitMainWrapper">
+    <div>
+      <input type="text" placeholder="Добавить задачу">
+    </div>
+    <div class="habbitData">
+      <input type="checkbox" id="checkBox">
+      <div id="description">
+        <div>
+          Название
+        </div>
+        <div>
+          описание
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,52 @@
+#habbit {
+  padding: 10px 10px;
+  width: 450px;
+}
+#habbitHeaderWrapper{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+#habbitTypes{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  align-self: center;
+}
+#habbitMainWrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #df8295;
+}
+.habbitData{
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  height: 65px;
+  margin: 5px 0;
+  padding: 0 20px;
+}
+input{
+  width: 100%;
+  margin: 10px 0;
+  height: 40px;
+}
+#checkBox{
+  height: 20px;
+  width: 20px;
+}
+#description{
+  margin-left: 20px;
+}
+svg{
+  height: 10px;
+  width: 10px;
+}
+.streak{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-self: right;
+}

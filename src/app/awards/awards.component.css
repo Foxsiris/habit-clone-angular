@@ -1,0 +1,56 @@
+#habbit {
+  padding: 10px 10px;
+  width: 450px;
+}
+#habbitHeaderWrapper{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+#habbitTypes{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  align-self: center;
+}
+#habbitMainWrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #df8295;
+}
+.shop{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  border: 3px solid black;
+  align-items: center;
+  justify-items: center;
+  margin: 5px 0;
+  padding: 10px 10px;
+  grid-gap: 8px;
+}
+input{
+  width: 100%;
+  margin: 10px 0;
+  height: 40px;
+}
+
+svg{
+  height: 10px;
+  width: 10px;
+}
+.box{
+  width: 90px;
+  height: 120px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  background-color: white;
+  align-items: center;
+}
+img{
+  width: 70px;
+  height: 70px;
+}
