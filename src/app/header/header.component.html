@@ -3,8 +3,8 @@
      <div>
        {{logo}}
      </div>
-      <div *ngFor="let link of links">
-           <a href="" class="headerLinks">{{link}}</a>
+      <div *ngFor="let link of headerLinks">
+           <a href="" class="headerLinks" routerLink="{{link.route}}">{{link.name}}</a>
       </div>
   </div>
   <div class="header_wrapper_rightSide">

@@ -7,7 +7,24 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   logo = 'Logo';
-  links = ['Задачи', 'Инвентарь', 'Лавки', 'Помощь'];
+  headerLinks = [
+    {
+      name:'Задачи',
+      route:'/tasks'
+    },
+    {
+      name:'Инвентарь',
+      route:'/inventory'
+    },
+    {
+      name:'Лавки',
+      route:'/shop'
+    },
+    {
+      name:'Помощь',
+      route:'/help'
+    },
+  ]
   gold = 0;
   diamonds = 0;
 

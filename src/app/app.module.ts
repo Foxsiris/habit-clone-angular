@@ -9,6 +9,9 @@ import { HabbitsComponent } from './habbits/habbits.component';
 import { DailyActivitiesComponent } from './daily-activities/daily-activities.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { AwardsComponent } from './awards/awards.component';
+import { InventoryComponent } from './inventory/inventory.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +22,13 @@ import { AwardsComponent } from './awards/awards.component';
     HabbitsComponent,
     DailyActivitiesComponent,
     TasksComponent,
-    AwardsComponent
+    AwardsComponent,
+    InventoryComponent,
+    MainComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
