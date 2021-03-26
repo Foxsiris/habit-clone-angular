@@ -1,0 +1,67 @@
+#equipment {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#left {
+  justify-self: end;
+}
+
+a {
+  text-decoration: none;
+  color: #b743ff;
+}
+
+#inventotyMain {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin: 15px 30px;
+}
+
+#filterWrapper {
+
+}
+
+label {
+  font-size: 18px;
+  margin: 0 7px;
+}
+
+#labelQue {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#equipmentWrapper {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+
+#equipmentHeader {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.item {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #b743ff;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.classEquipmentInfo {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  width: 600px;
+}
+img{
+  width: 90px;
+  height: 90px;
+}
