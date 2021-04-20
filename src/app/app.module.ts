@@ -12,6 +12,9 @@ import { AwardsComponent } from './awards/awards.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
+import { ModalHabbitComponent } from './modal-habbit/modal-habbit.component';
+import { RegistrComponent } from './registr-authorization/registr/registr.component';
+import { AutorizationComponent } from './registr-authorization/autorization/autorization.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { MainComponent } from './main/main.component';
     TasksComponent,
     AwardsComponent,
     InventoryComponent,
-    MainComponent
+    MainComponent,
+    ModalHabbitComponent,
+    RegistrComponent,
+    AutorizationComponent
   ],
   imports: [
     BrowserModule,

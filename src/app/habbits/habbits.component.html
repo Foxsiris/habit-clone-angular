@@ -13,11 +13,11 @@
     <div>
       <input type="text" placeholder="Добавить привычку">
     </div>
-    <div class="habbitData">
+    <div class="habbitData" >
       <div id="plus">
         +
       </div>
-      <div id="description">
+      <div id="description" (click)="modalActive()">
         <div>
           Название
         </div>
@@ -39,3 +39,4 @@
     </div>
   </div>
 </div>
+<app-modal-habbit [modalActive]="activeModal"></app-modal-habbit>

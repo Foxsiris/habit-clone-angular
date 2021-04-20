@@ -1,0 +1,44 @@
+<div [class]="modalActive?'modal active':'modal'">
+  <div class="modal__content">
+    <div class="modal_header">
+      <div>
+        <h3>Изменить привычку</h3>
+      </div>
+      <div>
+        <button class="btn btn-outline-danger btn-sm" (click)="closeModal()">отмена</button>
+        <button class="btn btn-outline-primary btn-sm">сохранить</button>
+      </div>
+    </div>
+    <div>
+      <input type="text" class="inputModal">
+    </div>
+    <div>
+      <div class="chooseModal_wrapper">
+        <div>
+          <button class="circle btn btn-success">+</button>
+        </div>
+        <div>
+          <button class="circle btn btn-warning">-</button>
+        </div>
+        <div>
+          <label htmlFor="">Полезная</label>
+        </div>
+        <div>
+          <label htmlFor="">Вредная</label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <label htmlFor="">Сложность</label>
+      <select name="" id="">
+        <option value="">Пустяк</option>
+        <option value="">Легко</option>
+        <option value="">Нормально</option>
+        <option value="">Сложно</option>
+      </select>
+    </div>
+    <div>
+      <button class="btn btn-outline-danger btn-sm">УДАЛИТЬ ПРИВЫЧКУ</button>
+    </div>
+  </div>
+</div>
