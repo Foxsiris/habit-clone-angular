@@ -50,3 +50,16 @@ svg{
   grid-template-columns: repeat(2,1fr);
   justify-self: right;
 }
+#footer_svg{
+  height: 35px;
+  width: 35px;
+}
+.footer h4{
+  font-size: 16px;
+}
+.footer p{
+  font-size: 12px;
+}
+.footer{
+  padding-top: 20px;
+}

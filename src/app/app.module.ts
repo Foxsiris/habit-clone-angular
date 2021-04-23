@@ -15,6 +15,7 @@ import { MainComponent } from './main/main.component';
 import { ModalHabbitComponent } from './modal-habbit/modal-habbit.component';
 import { RegistrComponent } from './registr-authorization/registr/registr.component';
 import { AutorizationComponent } from './registr-authorization/autorization/autorization.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AutorizationComponent } from './registr-authorization/autorization/auto
     MainComponent,
     ModalHabbitComponent,
     RegistrComponent,
-    AutorizationComponent
+    AutorizationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
