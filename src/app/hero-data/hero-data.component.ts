@@ -12,11 +12,14 @@ export class HeroDataComponent implements OnInit {
   level = 6
   class = 'Воин'
   nickName = 'Meliodos'
-
+  activeModal = false
   constructor() {
   }
 
   ngOnInit(): void {
+  }
+  modalActive(){
+    this.activeModal = !this.activeModal
   }
 
 }

@@ -1,0 +1,71 @@
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  opacity: 0;
+  pointer-events: none;
+
+}
+.modal__content{
+  padding: 30px;
+  border-radius: 12px;
+  background-color: white;
+}
+.modal.active{
+  opacity: 1;
+  pointer-events: all;
+}
+svg{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.data_with_img{
+  padding-top: 40px;
+}
+img{
+  height: 250px;
+  width: 250px;
+}
+.first_section{
+  margin-bottom: 40px;
+}
+.characteristics_card{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.data{
+  text-align: center;
+}
+.title{
+  font-size: 13px;
+}
+.title_data{
+  font-size: 80px;
+}
+.other_characteristics{
+  text-align: left;
+}
+#strong{
+  color: red;
+}
+#int{
+  color: #3678e7;
+}
+#vospr{
+  color: #b743ff;
+}
+#telo{
+  color: #faa81c;
+}
+.btn-close{
+  text-align: right;
+}
